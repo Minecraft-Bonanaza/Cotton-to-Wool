@@ -1,0 +1,38 @@
+modLoader = "lowcodefml"
+loaderVersion = "[1,)"
+license = "MIT"
+
+[[mods]]
+modId = "cotton_to_string"
+version = "1.0.0"
+displayName = "Cotton to String"
+authors = "Cotton to Wool"
+description = '''Craft or mill Create: Cotton, cotton balls, and thread into vanilla string.'''
+
+[[dependencies.cotton_to_string]]
+modId = "neoforge"
+type = "required"
+versionRange = "[21.1.248,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cotton_to_string]]
+modId = "minecraft"
+type = "required"
+versionRange = "[1.21.1]"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cotton_to_string]]
+modId = "create"
+type = "optional"
+versionRange = "*"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.cotton_to_string]]
+modId = "createcotton"
+type = "optional"
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"

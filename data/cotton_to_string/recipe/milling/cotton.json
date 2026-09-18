@@ -1,0 +1,25 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "create"
+    },
+    {
+      "type": "neoforge:item_exists",
+      "item": "createcotton:cotton"
+    }
+  ],
+  "type": "create:milling",
+  "ingredients": [
+    {
+      "item": "createcotton:cotton"
+    }
+  ],
+  "processing_time": 100,
+  "results": [
+    {
+      "count": 2,
+      "id": "minecraft:string"
+    }
+  ]
+}

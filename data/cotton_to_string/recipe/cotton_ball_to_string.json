@@ -1,0 +1,20 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:item_exists",
+      "item": "createcotton:cotton_ball"
+    }
+  ],
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "group": "cotton_to_string",
+  "ingredients": [
+    {
+      "item": "createcotton:cotton_ball"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:string"
+  }
+}

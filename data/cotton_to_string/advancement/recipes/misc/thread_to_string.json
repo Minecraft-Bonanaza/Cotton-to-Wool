@@ -1,0 +1,38 @@
+{
+  "neoforge:conditions": [
+    {
+      "type": "neoforge:mod_loaded",
+      "modid": "createcotton"
+    }
+  ],
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_thread": {
+      "conditions": {
+        "items": [
+          {
+            "items": "#createcotton:cotton_threads"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "cotton_to_string:thread_to_string"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_thread"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "cotton_to_string:thread_to_string"
+    ]
+  }
+}
